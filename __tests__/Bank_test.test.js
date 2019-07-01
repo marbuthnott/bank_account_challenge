@@ -1,4 +1,4 @@
-import Bank from 'lib/Bank'
+var {Bank} = require('../lib/Bank');
 
 describe('Bank', function() {
   var bank;
