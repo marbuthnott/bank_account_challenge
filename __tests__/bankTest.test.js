@@ -1,17 +1,16 @@
-var {Bank} = require('../lib/Bank');
+var {Bank} = require('../lib/Bank')
 
 describe('Bank', function() {
-  var bank;
 
   beforeEach(function() {
     bank = new Bank();
   });
 
-  describe('#print_bank_statement', function() {
-    it('prints a bank statement in the correct format', function() {
+  // describe('#print_bank_statement', function() {
+  //   it('prints a bank statement in the correct format', function() {
 
-    });
-  });
+  //   });
+  // });
 
   describe('#deposit', function() {
     it('accepts a deposit', function() {
