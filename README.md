@@ -22,7 +22,10 @@ As the majority of our work has focused on Ruby I will be
 ## TECH/FRAMEWORK USED
 
 Jest
+ESLint
 
-## Approach
+## APPROACH
 
-## Learnings
+Running tests and the project on via the terminal was unfamiliar territory, all previous Javascript projects have been run through the browser. As a result I spent a lot of time setting up the project and becoming familiar with ESLint to check code quality and Jest for all testing.
+
+## LEARNINGS
