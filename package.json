@@ -10,6 +10,10 @@
     "updatesnapshot": "jest --update-snapshot"
   },
   "devDependencies": {
+    "eslint": "^6.0.1",
     "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "jslint": "^0.12.1"
   }
 }

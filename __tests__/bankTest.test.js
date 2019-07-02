@@ -20,4 +20,14 @@ describe('Bank', function() {
       expect(bank._account).toEqual([{date: date, credit: 2000, debit: 0, balance: 2000}])
     });
   });
+
+  describe('#withdrawal', function() {
+    it('accepts a withdrawal', function() {
+      bank.withdraw(2000)
+      var today = new Date();
+      var date = today.getDate() + '/' + today.getMonth() + '/' + today.getFullYear();
+      expect(bank._account).toEqual([{date: date, credit: 0, debit: 2000, balance: -2000}])
+    });
+  });
+
 })
