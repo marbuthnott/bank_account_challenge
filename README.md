@@ -62,6 +62,8 @@ PRINT STATEMENT:
 
 Running tests via the terminal was unfamiliar territory, all previous Javascript projects have been run through the browser. As a result I spent a lot of time setting up the project and becoming familiar with ESLint to check code quality and Jest for all testing. Partly down to being unsure how to work with Jest I spent around 4 hours on this project.
 
+## WHAT I WOULD DO DIFFERENTLY
+
 If I came at this project again I would focus more on Single Responsibility Principle by splitting the program into a `Transaction` class to handle the logic, and a `BankAccount` class to handle interaction with the user and printing of the statement.
 
 I would also try to adopt a different method of declaring functions, specifically, the Arrow function. [Blog on JavaScript function declaration](https://medium.com/@ajmeyghani/javascript-functions-a-pocket-reference-d42597ceb496).
